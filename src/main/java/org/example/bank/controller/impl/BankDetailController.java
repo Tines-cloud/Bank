@@ -1,8 +1,8 @@
-package org.example.controller.impl;
+package org.example.bank.controller.impl;
 
 import io.swagger.annotations.Api;
-import org.example.controller.IBankDetailController;
-import org.example.modal.BankDetailsModal;
+import org.example.bank.controller.IBankDetailController;
+import org.example.bank.modal.BankDetailsModal;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 

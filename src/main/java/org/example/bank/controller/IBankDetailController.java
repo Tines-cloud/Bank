@@ -1,7 +1,7 @@
-package org.example.controller;
+package org.example.bank.controller;
 
 import io.swagger.annotations.Api;
-import org.example.modal.BankDetailsModal;
+import org.example.bank.modal.BankDetailsModal;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
