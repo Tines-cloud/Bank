@@ -13,9 +13,9 @@ import java.util.List;
 public class Bank {
     @Id
     @Column(name = "bank_id")
-    private String bank_id;
+    private String bankId;
     @Column(name = "bank_name")
-    private String bank_name;
+    private String bankName;
     @OneToMany(mappedBy = "bank", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<BankBranch> bankBranchList;
 }
