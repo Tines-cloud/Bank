@@ -15,68 +15,68 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 })
 public class BankDetailsModal {
     @JsonProperty("emp_id")
-    private String emp_id;
+    private String empId;
 
     @JsonProperty("emp_name")
-    private String emp_name;
+    private String empName;
 
     @JsonProperty("emp_email")
-    private String emp_email;
+    private String empEmail;
 
     @JsonProperty("emp_photo")
-    private String emp_photo;
+    private String empPhoto;
 
     @JsonProperty("branch_name")
-    private String branch_name;
+    private String branchName;
 
     @JsonProperty("bank_name")
-    private int bank_name;
+    private int bankName;
 
-    public String getEmp_id() {
-        return emp_id;
+    public String getEmpId() {
+        return empId;
     }
 
-    public void setEmp_id(String emp_id) {
-        this.emp_id = emp_id;
+    public void setEmpId(String empId) {
+        this.empId = empId;
     }
 
-    public String getEmp_name() {
-        return emp_name;
+    public String getEmpName() {
+        return empName;
     }
 
-    public void setEmp_name(String emp_name) {
-        this.emp_name = emp_name;
+    public void setEmpName(String empName) {
+        this.empName = empName;
     }
 
-    public String getEmp_email() {
-        return emp_email;
+    public String getEmpEmail() {
+        return empEmail;
     }
 
-    public void setEmp_email(String emp_email) {
-        this.emp_email = emp_email;
+    public void setEmpEmail(String empEmail) {
+        this.empEmail = empEmail;
     }
 
-    public String getEmp_photo() {
-        return emp_photo;
+    public String getEmpPhoto() {
+        return empPhoto;
     }
 
-    public void setEmp_photo(String emp_photo) {
-        this.emp_photo = emp_photo;
+    public void setEmpPhoto(String empPhoto) {
+        this.empPhoto = empPhoto;
     }
 
-    public String getBranch_name() {
-        return branch_name;
+    public String getBranchName() {
+        return branchName;
     }
 
-    public void setBranch_name(String branch_name) {
-        this.branch_name = branch_name;
+    public void setBranchName(String branchName) {
+        this.branchName = branchName;
     }
 
-    public int getBank_name() {
-        return bank_name;
+    public int getBankName() {
+        return bankName;
     }
 
-    public void setBank_name(int bank_name) {
-        this.bank_name = bank_name;
+    public void setBankName(int bankName) {
+        this.bankName = bankName;
     }
 }

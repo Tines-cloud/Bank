@@ -11,8 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class BankDetailController implements IBankDetailController {
 
     @Override
-    public ResponseEntity<BankDetailsModal> getBankDetails() throws Exception {
-        ResponseEntity<BankDetailsModal> response=null;
-        return response;
+    public ResponseEntity<BankDetailsModal> getBankDetails() {
+        return null;
     }
 }

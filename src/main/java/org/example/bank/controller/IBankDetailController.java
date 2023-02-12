@@ -3,13 +3,14 @@ package org.example.bank.controller;
 import io.swagger.annotations.Api;
 import org.example.bank.modal.BankDetailsModal;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @Api(value = "bank management")
 public interface IBankDetailController {
-    @RequestMapping(method = {RequestMethod.GET},value = "Bank/AllDetails",produces = "application/json")
-    ResponseEntity<BankDetailsModal> getBankDetails() throws Exception;
+    @GetMapping(path = "Bank/AllDetails", produces = "application/json")
+    default ResponseEntity<BankDetailsModal> getBankDetails() {
+       return null;
+    }
 }

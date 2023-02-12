@@ -13,11 +13,11 @@ import java.util.List;
 public class BankBranch {
     @Id
     @Column(name = "branch_id")
-    private String branch_id;
+    private String branchId;
     @Column(name = "branch_name")
-    private String branch_name;
+    private String branchName;
     @Column(name = "branch_address")
-    private String branch_address;
+    private String branchAddress;
     @ManyToOne
     @JoinColumn(name = "bank_id")
     private Bank bank;
